@@ -1,0 +1,96 @@
+
+* {
+    outline: none;
+    box-sizing: border-box;
+
+    /*font-family: 'IBM Plex Mono', monospace; - For the snipets*/
+    font-family: 'IBM Plex Sans', sans-serif; /*Main font*/
+}
+
+body {
+    margin: 0px;
+}
+
+#splash {
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: pink;
+}
+
+#splash img {
+    display: block;
+    width: 45px;
+    height: 50px;
+
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#splash h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+#splash h1 span {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+
+    margin-top: calc(5vh + 1vw);
+    margin-bottom: calc(5vh - 2vw);
+}
+
+#lessons {
+    width: 100%;
+
+    padding: 0px 3vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-row: 1fr 1fr 1fr 1fr;
+}
+
+#lessons a {
+    text-decoration: none;
+    cursor: default;
+}
+
+#lessons .card {
+    background: olive;
+
+    border-radius: 20px;
+
+    margin: 3vw;
+    padding: 20px;
+    height: 25vh;
+
+    cursor: pointer;
+
+    color: #fff;
+}
+
+#lessons .card.introduction              {background: maroon;}
+#lessons .card.thebasics                 {background: violet;}
+#lessons .card.application               {background: lightblue;}
+#lessons .card.objectorientedprogramming {background: orange;}
+
+#lessons .card span {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#lessons .card p {
+    font-size: 16px;
+}
