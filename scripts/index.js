@@ -56,50 +56,25 @@ const lessons = [
     }
 ]
 
-/*
-Lessons:
-intro
-- Environment Setup
-basics
-- Variables
-- operators
-doing stuff with code
-- conditional statements
-- loops
-- input and output
-object oriented
-- classes and objects
-- methods and constructors
-- polymorphism
-
-
-
-
-
-
-*/
-
-
 //Drawing all the lesson cards to the DOM object
 for (i in lessons) {
-    //make full card
     let card = document.createElement("div");
     card.className = "card";
 
+    let forward = document.createElement("a");
+    forward.setAttribute("href", lessons[i].link);
+    card.appendChild(forward);
+
     let title = document.createElement("span");
     title.innerHTML = lessons[i].title;
-    card.appendChild(title);
+    forward.appendChild(title);
 
     let section = lessons[i].section.replace(/\s/g, '').toLowerCase();
     card.className += " " + section;
 
     let text = document.createElement("p");
     text.innerHTML = "<u>" + lessons[i].section + "</u><br>" + lessons[i].text;
-    card.appendChild(text);
+    forward.appendChild(text);
 
-    let forward = document.createElement("a",{href: 'template.html'});
-    forward.setAttribute("href", lessons[i].link);
-    forward.appendChild(card);
-
-    document.getElementById('lessons').appendChild(forward);
+    document.getElementById('lessons').appendChild(card);
 }

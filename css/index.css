@@ -1,4 +1,3 @@
-
 * {
     outline: none;
     box-sizing: border-box;
@@ -54,43 +53,54 @@ h2 {
 
 #lessons {
     width: 100%;
-
     padding: 0px 3vw;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-row: 1fr 1fr 1fr 1fr;
-}
-
-#lessons a {
-    text-decoration: none;
-    cursor: default;
 }
 
 #lessons .card {
-    background: olive;
-
-    border-radius: 20px;
-
     margin: 3vw;
-    padding: 20px;
     height: 25vh;
+    border-radius: 20px;
+}
 
+#lessons .card.introduction {
+    background: #29ffc6;
+    background: -webkit-linear-gradient(125deg, #1BDAAA, #1BDAAA, #29ffc6);
+    background: linear-gradient(125deg, #1BDAAA, #1BDAAA, #29ffc6);
+}
+
+#lessons .card.thebasics {
+    background: #ff9966;
+    background: -webkit-linear-gradient(125deg, #ff5e62, #ff9966);
+    background: linear-gradient(125deg, #ff5e62, #ff9966);
+}
+
+#lessons .card.application {
+    background: #F2C94C;
+    background: -webkit-linear-gradient(125deg, #F4A966, #F2C94C);
+    background: linear-gradient(125deg, #F4A966, #F2C94C);
+}
+#lessons .card.objectorientedprogramming {
+    background: #798EF6;
+    background: -webkit-linear-gradient(125deg, #2952ff, #798EF6);
+    background: linear-gradient(125deg, #2952ff, #798EF6);
+}
+
+#lessons .card a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    padding: 20px;
     cursor: pointer;
 
+    text-decoration: none;
+    font-weight: 400;
     color: #fff;
 }
 
-#lessons .card.introduction              {background: maroon;}
-#lessons .card.thebasics                 {background: violet;}
-#lessons .card.application               {background: lightblue;}
-#lessons .card.objectorientedprogramming {background: orange;}
-
-#lessons .card span {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-#lessons .card p {
-    font-size: 16px;
-}
+#lessons .card span {font-size: 23px;}
+#lessons .card u {font-size: 18px;}
+#lessons .card p {font-size: 16px;}
