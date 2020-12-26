@@ -1,46 +1,5 @@
-* {
-    outline: none;
-    box-sizing: border-box;
-
-    /*font-family: 'IBM Plex Mono', monospace; - For the snipets*/
-    font-family: 'IBM Plex Sans', sans-serif; /*Main font*/
-}
-
-body {
-    margin: 0px;
-}
-
-#splash {
-    width: 100%;
-    height: 85vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: pink;
-}
-
-#splash img {
-    display: block;
-    width: 45px;
-    height: 50px;
-
-    position: absolute;
-    top: 7px;
-    left: 10px;
-}
-
-#splash h1 {
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-}
-
-#splash h1 span {
-    font-size: 100px;
-    text-transform: capitalize;
+:root {
+    --grad: #00c8ff;
 }
 
 h2 {
@@ -69,6 +28,10 @@ h2 {
     background: #29ffc6;
     background: -webkit-linear-gradient(125deg, #1BDAAA, #1BDAAA, #29ffc6);
     background: linear-gradient(125deg, #1BDAAA, #1BDAAA, #29ffc6);
+
+    background: #29ffc6;
+    background: -webkit-linear-gradient(125deg, #5eff91, #5eff91, #66ffcc);
+    background: linear-gradient(305deg, #5eff91, #66ffcc);
 }
 
 #lessons .card.thebasics {
@@ -92,13 +55,13 @@ h2 {
     display: block;
     width: 100%;
     height: 100%;
-
     padding: 20px;
-    cursor: pointer;
 
     text-decoration: none;
     font-weight: 400;
     color: #fff;
+
+    cursor: pointer;
 }
 
 #lessons .card span {font-size: 23px;}

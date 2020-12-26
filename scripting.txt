@@ -1,0 +1,9 @@
+
+Operators:
+
+//what are operators and why we use them
+//image of syntax
+
+Operators:
+//list of all operators
+//snippet of all operators in action with outputs

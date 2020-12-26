@@ -1,0 +1,77 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+
+    /*font-family: 'IBM Plex Mono', monospace; - For the snipets*/
+    font-family: 'IBM Plex Sans', sans-serif; /*Main font*/
+}
+
+body {
+    margin: 0px;
+    background: #f8f8f8;
+}
+
+#splash {
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--grad);
+}
+
+#splash img {
+    display: block;
+    width: 45px;
+    height: 50px;
+
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#splash h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+
+    position: relative;
+    top: -30px;
+}
+
+#splash h1 span {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+footer {
+    width: 100%;
+    margin-top: 4vh;
+    padding: 2vh 0px;
+
+    display: grid;
+    grid-template-columns: 10% 3.5fr 1fr;
+
+    color: #fff;
+    background: var(--grad);
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    display: block;
+    width: 40px;
+    height: 45px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -2,9 +2,145 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="css/trim.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        redirected
+        <div id="splash">
+            <a href="index.html"><img src="res/Logo.png" alt="Home"></a>
+
+            <div>
+                <h1 id="title"></h1>
+
+                <!--
+                <iframe id="video"
+                    frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture" allowfullscreen></iframe>
+                -->
+            </div>
+        </div>
+
+        <section id="cards"></section>
+
+        <section id="takeaway">
+            <div class="bubble link" style="margin: 0px; background: var(--grad2);">
+                <h3>Polymorphism</h3>
+                <span>Object oriented programming</span>
+            </div>
+
+            <div class="bubble reading">
+                <h3>Extra Reading</h3>
+
+                <ul id="extras">
+                    <!--
+                    <li><a href="#">Lorem ipsum dolor sit</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                -->
+                </ul>
+            </div>
+
+            <div class="bubble link" style="background: var(--grad3);">
+                <h3>Polymorphism</h3>
+                <span>Object oriented programming</span>
+            </div>
+        </section>
+
+        <footer>
+            <div><img src="res/Logo.png" alt="Logo"></div>
+            <div><span>Copyright 2020-2021 by ITGS Student. All Rights Reserved.</span></div>
+            <div><a href="#">Back to top ^</a></div>
+        </footer>
     </body>
+
+    <script type="text/javascript" src="content.js"></script>
+    <script type="text/javascript" src="scripts/pagebuilder.js"></script>
 </html>
+
+<!--
+Still needed:
+- auto colour schemes based on groups
+- auto json formatter
+- adapt to actual json for extra skill showoff?
+- Finish splashscreen
+- Create footer
+- Debugging
+- Crit E document
+-->
+
+
+
+
+
+
+<!--
+REFERENCE
+
+<div class="slot">
+    <div class="card code">
+        <section class="snip">
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre>int low = w;</pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre id="test">String txt = "Water";</pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre></pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre>if (low > f) {</pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre>    low = f;</pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre>    txt = "Fire";</pre></div>
+            </div>
+
+            <div class="line">
+                <div class="bar"></div>
+                <div class="text"><pre>}</pre></div>
+            </div>
+        </section>
+        <div class="sub">
+            <span>hello world this is a sample text for testing</span>
+        </div>
+    </div>
+</div>
+
+<div class="slot">
+    <h2 class="subtitle">Subtitle</h2>
+</div>
+
+<div class="slot">
+    <div class="card img">
+        <img src="images/test.png" alt="">
+    </div>
+</div>
+
+<div class="slot">
+    <div class="card text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare nisi vitae diam iaculis dictum. Etiam ut dapibus ipsum, in iaculis libero. Maecenas quis efficitur nibh. Aenean et eleifend nisi, ac facilisis quam. Integer laoreet quis magna eget ullamcorper. Ut scelerisque suscipit tortor id blandit. Nulla suscipit erat in orci faucibus porttitor. Aliquam erat volutpat. Cras libero turpis, maximus ac diam sit amet, laoreet laoreet odio. Quisque at orci eget dui ultricies euismod ac in nisl. Fusce accumsan lorem odio, sit amet pulvinar risus vehicula eget. Nam sed vestibulum nisl.
+    </div>
+</div>
+-->

@@ -62,7 +62,7 @@ for (i in lessons) {
     card.className = "card";
 
     let forward = document.createElement("a");
-    forward.setAttribute("href", lessons[i].link);
+    forward.setAttribute("href", lessons[i].link + "?" + i);
     card.appendChild(forward);
 
     let title = document.createElement("span");

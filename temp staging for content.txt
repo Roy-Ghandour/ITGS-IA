@@ -1,0 +1,6 @@
+
+
+
+What are operators and why are they used:
+
+You're now able to store data in the form of variables. Now it's important to learn how to manipulate the data to perform calculations. In Java this is done through operators. Operators are special characters that can be used to perfrom different operations on data, such as: adding, subtracting, etc.
