@@ -17,9 +17,7 @@ function add(parent, child) {
 }
 
 //Imports
-
-const current = 0; //for testing will be removed later
-//const current = parseInt(location.search.substring(1)); //uncomment after testing
+const current = parseInt(location.search.substring(1));
 
 const page = pages[current];
 const cards = page.cards;
@@ -29,8 +27,7 @@ const doc = document.getElementById('cards');
 //Adding components
 document.title = page.title;
 document.getElementById('title').innerHTML = page.title;
-//Fix the video implementation:
-//document.getElementById('video').src = page.video;
+document.getElementById('video').src = page.video;
 
 let pallate = document.documentElement;
 const colors1 = ["#66ffcc", "#ff5e62", "#F4A966", "#2952ff"];
@@ -129,7 +126,7 @@ for (i in cards) {
     add(doc, slot);
 }
 
-//chnage header and description text here after contetn and index are merged
+//chnage header and description text here after content and index are merged
 
 let links = page.links;
 let list = document.getElementById("extras");
@@ -143,3 +140,15 @@ for (i in links) {
     add(li, a);
     add(list, li);
 }
+
+let prevPage = document.getElementById("prev");
+prevPage.href = "template.html?" + prev;
+
+let nextPage = document.getElementById("next");
+nextPage.href = "template.html?" + next;
+
+let prevTitle = document.getElementById("prevTitle");
+prevTitle.innerHTML = pages[prev].title;
+
+let nextTitle = document.getElementById("nextTitle");
+nextTitle.innerHTML = pages[next].title;

@@ -3,55 +3,55 @@ const lessons = [
     {
         title: "Setting up Environment",
         section: "Introduction",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Installing and getting started with Java",
         link: "template.html"
     },
     {
         title: "Variables",
         section: "The Basics",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Learning to store and use data",
         link: "template.html"
     },
     {
         title: "Operators",
         section: "The Basics",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Manipulating data with mathematical operators",
         link: "template.html"
     },
     {
         title: "Conditional Statements",
         section: "Application",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Making decisions with Java",
         link: "template.html"
     },
     {
         title: "Loops",
         section: "Application",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Repeating and controlling tasks",
         link: "template.html"
     },
     {
         title: "Input and Output",
         section: "Application",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Interacting with users in Java",
         link: "template.html"
     },
     {
         title: "Classes and Objects",
         section: "Object Oriented Programming",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Defining classes and objects in Java programs",
         link: "template.html"
     },
     {
         title: "Methods and Constructors",
         section: "Object Oriented Programming",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Adding functionality to object oriented programs",
         link: "template.html"
     },
     {
         title: "Polymorphism",
         section: "Object Oriented Programming",
-        text: "Lorem ipsum dolor toma binnoto sebastian bordaux",
+        text: "Organising and scaling programs with Java",
         link: "template.html"
     }
 ]

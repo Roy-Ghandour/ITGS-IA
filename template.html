@@ -18,22 +18,21 @@
             <div>
                 <h1 id="title"></h1>
 
-                <!--
-                <iframe id="video"
-                    frameborder="0" allow="accelerometer; autoplay;
-                    clipboard-write; encrypted-media; gyroscope;
+                <iframe id="video" frameborder="0" allow="accelerometer;
+                    autoplay; clipboard-write; encrypted-media; gyroscope;
                     picture-in-picture" allowfullscreen></iframe>
-                -->
             </div>
         </div>
 
         <section id="cards"></section>
 
         <section id="takeaway">
-            <div class="bubble link" style="margin: 0px; background: var(--grad2);">
-                <h3>Polymorphism</h3>
-                <span>Object oriented programming</span>
-            </div>
+            <a id="prev">
+                <div class="bubble link" style="margin: 0px; background: var(--grad2);">
+                    <h3>Previous Page</h3>
+                    <span id="prevTitle"></span>
+                </div>
+            </a>
 
             <div class="bubble reading">
                 <h3>Extra Reading</h3>
@@ -48,10 +47,12 @@
                 </ul>
             </div>
 
-            <div class="bubble link" style="background: var(--grad3);">
-                <h3>Polymorphism</h3>
-                <span>Object oriented programming</span>
-            </div>
+            <a id="next">
+                    <div class="bubble link" style="background: var(--grad3);">
+                    <h3>Next Page</h3>
+                    <span id="nextTitle"></span>
+                </div>
+            </a>
         </section>
 
         <footer>
